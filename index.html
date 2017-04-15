@@ -4,6 +4,8 @@
     <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
     <link href="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"/>
+    <script src= "js/vendor/leaflet.js"></script>
+    <script src= "js/vendor/angular-leaflet-directive.min.js"></script>
 
   </head>
   <body>
@@ -14,7 +16,7 @@
       </div>
     </div>
 
-    <div class="main">
+    <div class="main" ng-controller='MainController'>
       <div class="container-fluid" id="map-canvas">
         
       </div>
